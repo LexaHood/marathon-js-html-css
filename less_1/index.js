@@ -10,10 +10,10 @@ for (const slide of slides) {
     setTimeout(() => {
       bg.src = bg_new;
       bg.classList.add('visible');
-    }, 200);
+    }, 300);
     setTimeout(() => {
       bg.classList.remove('img-change-animation', 'visible');
-    }, 400);
+    }, 600);
   });
 }
 
