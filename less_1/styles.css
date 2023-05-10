@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
+:root {
+  --black: #111;
+  --white: #fff;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -8,7 +13,8 @@ body {
   font-family: 'Muli', sans-serif;
   overflow: hidden;
   margin: 0;
-  background-color: #111;
+  background-color: var(--black);
+  color: var(--white);
 }
 
 img {
@@ -23,7 +29,6 @@ img {
 }
 
 h1 {
-  color: #fff;
   text-align: center;
 }
 
@@ -58,7 +63,6 @@ h1 {
   border-radius: 20px;
   margin: 10px;
   cursor: pointer;
-  color: #fff;
   flex: 1;
   background-size: cover;
   background-position: center;
